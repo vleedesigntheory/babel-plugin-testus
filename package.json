@@ -1,0 +1,24 @@
+{
+  "name": "babel-plugin-testus",
+  "version": "1.0.0",
+  "description": "A Babel Plugin for TestUS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vleedesigntheory/babel-plugin-testus.git"
+  },
+  "keywords": [
+    "testus",
+    "babel",
+    "plugin"
+  ],
+  "author": "veeui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vleedesigntheory/babel-plugin-testus/issues"
+  },
+  "homepage": "https://github.com/vleedesigntheory/babel-plugin-testus#readme"
+}
