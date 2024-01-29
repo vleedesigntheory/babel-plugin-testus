@@ -4,7 +4,7 @@
   "description": "A Babel Plugin for TestUS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/index.test.js"
   },
   "repository": {
     "type": "git",
@@ -16,9 +16,13 @@
     "plugin"
   ],
   "author": "veeui",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/vleedesigntheory/babel-plugin-testus/issues"
   },
-  "homepage": "https://github.com/vleedesigntheory/babel-plugin-testus#readme"
+  "homepage": "https://github.com/vleedesigntheory/babel-plugin-testus#readme",
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9"
+  }
 }
