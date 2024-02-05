@@ -8,8 +8,15 @@
 
 ## Principle
 
-## Example
+The whole plugin complies with the architectural design system of `Babel`, and performs corresponding syntax transformation on the source code through procedural steps.
 
+![architecture](assets/architecture.png)
+
+The technical selection uses various dependency packages required by `Babel` to handle Babel 6.x and Babel 7.x, including: `parser`, `traverse`, and `generator` etc.
+
+![technology](assets/technology.png)
+
+## Example
 
 By configuring the `plugins` in `babel.config.js` or `.babelrc`, introduce `babel-plugin-testus` to realize syntax transformation. The configuration is as follows:
 
